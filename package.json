@@ -10,7 +10,9 @@
   "author": "Roisty <support@roisty.com> (https://www.roisty.com/)",
   "license": "MIT",
   "dependencies": {
+    "@types/readline-sync": "^1.4.4",
     "colors": "^1.4.0",
-    "puppeteer": "^20.5.0"
+    "puppeteer": "^20.5.0",
+    "readline-sync": "^1.4.10"
   }
 }

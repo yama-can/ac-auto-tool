@@ -1,4 +1,7 @@
 import puppeteer from "puppeteer";
-import colors from "colors";
+import login from "./login";
 
-const browser = puppeteer.launch({ headless: 'new' });
+(async () => {
+	const browser = await puppeteer.launch({ headless: 'new' });
+	process.exit();
+})();
